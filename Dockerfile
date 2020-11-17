@@ -1,4 +1,4 @@
-FROM node:11
+FROM node:8.12.0
 #
 # This container uses the current version of pa11y (version 5.1.0 as of this writing) but downgrades
 # to pa11y-ci version 1.3.1.  Versions 2.0.0 and above are failing to load Chromium, and I have not
